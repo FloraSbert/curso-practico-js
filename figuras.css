@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    background: linear-gradient( #72147E, #F21170);
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #FF5200;
+    font-family: 'Muli', sans-serif;
+}
+
+.header-subtitle {
+    display: flex;
+    justify-content: right;
+    margin: 12px;
+    font-size: 15px;
+    color: seashell;
+}
+
+.cuadrado {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    color: bisque;
+    padding: 0px 30px;
+    min-height: calc(10vh - 200px);
+}
+
+.cuadrado_conteiner {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid #FA9905;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cuadrado_conteiner h2 {
+    margin: 10px;
+    font-size: 25px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado_conteiner-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadrado_conteiner-form label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 15px 15px;
+}
+
+.cuadrado_conteiner-form input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #FF5200;
+    outline: none
+}
+
+::placeholder {
+    color: seashell;
+}
+
+.cuadrado_conteiner-form p {
+    margin: 10px;
+    font-size: 18px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado_conteiner-form button {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 3px solid #FA9905;
+    border-left: 3px solid #FA9905;
+    border-right: 3px solid #FA9905;
+    border-bottom: 3px solid #FA9905;
+    outline: none;
+    color: #FF5200;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    font-family: 'Muli', sans-serif;
+}
+
+.triangulo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    color: bisque;
+    padding: 0px 30px;
+    min-height: calc(10vh - 200px);
+}
+
+.triangulo_conteiner {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid #FA9905;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.triangulo_conteiner h2 {
+    margin: 10px;
+    font-size: 25px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo_conteiner-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.triangulo_conteiner-form label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
+.triangulo_conteiner-form p {
+    margin: 10px;
+    font-size: 18px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo_conteiner-form input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #FF5200;
+    outline: none
+}
+
+::placeholder {
+    color: seashell;
+}
+
+.triangulo_conteiner-form button {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 3px solid #FA9905;
+    border-left: 3px solid #FA9905;
+    border-right: 3px solid #FA9905;
+    border-bottom: 3px solid #FA9905;
+    outline: none;
+    color: #FF5200;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    font-family: 'Muli', sans-serif;
+}
+
+.circulo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    color: bisque;
+    padding: 0px 30px;
+    min-height: calc(10vh - 200px);
+}
+
+.circulo_conteiner {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid #FA9905;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.circulo_conteiner h2 {
+    margin: 10px;
+    font-size: 25px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo_conteiner-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo_conteiner-form label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
+.circulo_conteiner-form p {
+    margin: 10px;
+    font-size: 18px;
+    color: ghostwhite;
+    font-family: 'Muli';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo_conteiner-form input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #FF5200;
+    outline: none
+}
+
+::placeholder {
+    color: seashell;
+}
+
+.circulo_conteiner-form button {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 3px solid #FA9905;
+    border-left: 3px solid #FA9905;
+    border-right: 3px solid #FA9905;
+    border-bottom: 3px solid #FA9905;
+    outline: none;
+    color: #FF5200;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 15px;
+    font-family: 'Muli', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .cuadrado_conteiner {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+    .triangulo_conteiner {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+    .circulo_conteiner {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+}

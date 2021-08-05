@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./figuras.css">
+    <title>Figuras Geometricas | Curso Practico de JavaScript</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">
+            Figuras Geometricas
+        </h1>
+        <p class="header-subtitle">Este es el primer taller del curso practico de JavaScript</p>
+    </header>
+    <section class="cuadrado">
+        <section class="cuadrado_conteiner">
+            <h2>Cuadrado</h2>
+            <form class="cuadrado_conteiner-form">
+                <div>
+                    <p> Escribe cuanto mide los lados de tu cuadrado: </p>
+                    <label for="inputCuadrado">
+                        Lados
+                    </label>
+                    <input id="inputCuadrado" type="number" placeholder="cm" />
+                </div>
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()"> 
+                     Area
+                </button>
+            </form>
+        </section>
+
+    </section>
+    <section class="triangulo">
+        <section class="triangulo_conteiner">
+            <h2>Triangulo</h2>
+            <form class="triangulo_conteiner-form">
+                <p>Escribe cuanto mide cada lado de tu Triangulo: </p>
+                <div>
+                    <label for="inputlado1Triangulo">
+                    Lado 1
+                </label>
+                    <input id="inputLado1Triangulo" type="number" placeholder="cm">
+                </div>
+                <div>
+                    <label for="inputlado2Triangulo">
+                    Lado 2
+                </label>
+                    <input id="inputLado2Triangulo" type="number" placeholder="cm">
+                </div>
+                <div>
+                    <label for="inputBaseTriangulo">
+                    Base 
+               </label>
+                    <input id="inputBaseTriangulo" type="number" placeholder="cm">
+                </div>
+                <div>
+                    <label for="inputAlturaTriangulo">
+                    Altura
+                </label>
+                    <input id="inputAlturaTriangulo" type="number" placeholder="cm">
+                </div>
+
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+            Perimetro
+        </button>
+                <button type="button" onclick="calcularAreaTriangulo()"> 
+             Area
+        </button>
+            </form>
+        </section>
+
+    </section>
+    <section class="circulo">
+        <section class="circulo_conteiner">
+            <h2>Circulo </h2>
+            <form class="circulo_conteiner-form">
+                <p>Escribe cuanto mide el radio de tu Circulo:</p>
+                <div>
+                    <label for="inputRadioCirculo">
+                        Radio
+                    </label>
+                    <input id="inputRadioCirculo" type="number" placeholder="cm">
+                </div>
+
+                <button type="button" onclick="calcularPerimetroCirculo()">
+                    Perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCirculo()">
+                    Area
+                </button>
+            </form>
+        </section>
+    </section>
+
+    <script src="figuras.js">
+    </script>
+</body>
+
+</html>
